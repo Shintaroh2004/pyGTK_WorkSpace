@@ -1,0 +1,3 @@
+pycairo==1.28.0
+PyGObject==3.50.1
+pytest==8.4.1
