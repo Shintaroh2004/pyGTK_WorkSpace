@@ -1,0 +1,3 @@
+[submodule "pygobject-stubs"]
+	path = pygobject-stubs
+	url = https://github.com/pygobject/pygobject-stubs.git
