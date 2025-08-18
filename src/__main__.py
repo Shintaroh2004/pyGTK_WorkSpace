@@ -1,7 +1,6 @@
-from viewmodel.MainViewModel import MainViewModel
 from view.MianWindow import MainWindow
 
-vm = MainViewModel()
-win = MainWindow(vm)
-win.show_all()
-win.main()
+if __name__ == "__main__":
+    win = MainWindow()
+    win.show_all()
+    win.main()
