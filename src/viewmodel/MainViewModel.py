@@ -11,4 +11,4 @@ class MainViewModel():
 
     def on_button_clicked(self,widget:Gtk.Button):
         widget.set_label("Clicked!!")
-        self.model.select()
+        self.model.fetch_all()

@@ -11,7 +11,9 @@ class MainWindow(Gtk.Window):
 
         self.viewModel = MainViewModel()
 
-        self.button = Gtk.Button(label="Click")
+        self.set_default_size(600,400)
+
+        self.button = Gtk.Button(label="button")
         self.button.connect("clicked",self.viewModel.on_button_clicked)
         self.add(self.button)
 
